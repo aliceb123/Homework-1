@@ -21,7 +21,7 @@
       },
       {
         "data": {
-          "url": "data/weatherAUS.csv"
+          "url": "https://github.com/aliceb123/Homework-1/blob/main/Homework9/data/weatherAUS.csv"
         },
         "mark": {"type": "circle",
         "color":{
