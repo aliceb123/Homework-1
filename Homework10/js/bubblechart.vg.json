@@ -3,7 +3,7 @@
     "width": 500,
     "height": 400,
     "title": "Minimum & Maximum temperatures across the country",
-        "data": {"url": "/Users/alicebarnes/Desktop/Homework10/data/weatherAUS.csv"},
+        "data": {"url": "https://raw.githubusercontent.com/aliceb123/Homework-1/main/Homework10/data/weatherAUS.csv"},
         "mark": "circle",
         "encoding" : {
           "x": {
