@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 400,
+    "title": "Minimum & Maximum temperatures across the country",
+        "data": {"url": "/Users/alicebarnes/Desktop/Homework10/data/weatherAUS.csv"},
+        "mark": "circle",
+        "encoding" : {
+          "x": {
+            "field": "min_temp",
+            "type": "quantitative",
+            "title": "Minimum Temperature (degrees Celsius)"
+          },
+          "y": {
+            "field": "max_temp",
+            "type": "quatitative",
+            "title": "Maximum Temperature (degrees Celsius)"
+          },
+          "color": {
+            "field": "location_1",
+            "type": "qualitative"
+          },
+          "size": {
+            "field": "avg_rainfall",
+            "type": "quantitative"
+          }
+        }
+ }
