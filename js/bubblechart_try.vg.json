@@ -4,7 +4,7 @@
     "height": 400,
     "title": "Minimum & Maximum Temperatures around the Country",
     "data": {
-    "url": "data/weatherAUS.csv"
+    "url": "https://raw.githubusercontent.com/aliceb123/Homework-1/main/data/weatherAUS.csv"
     },
     "params": [
       {
